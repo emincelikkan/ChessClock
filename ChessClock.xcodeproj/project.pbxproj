@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		440AF9F02B52D83E004A3483 /* ChessClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440AF9EF2B52D83E004A3483 /* ChessClockApp.swift */; };
-		440AF9F22B52D83E004A3483 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440AF9F12B52D83E004A3483 /* ContentView.swift */; };
+		440AF9F22B52D83E004A3483 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440AF9F12B52D83E004A3483 /* ClockView.swift */; };
 		440AF9F42B52D83F004A3483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440AF9F32B52D83F004A3483 /* Assets.xcassets */; };
 		440AF9F72B52D83F004A3483 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440AF9F62B52D83F004A3483 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		440AF9EC2B52D83E004A3483 /* ChessClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		440AF9EF2B52D83E004A3483 /* ChessClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessClockApp.swift; sourceTree = "<group>"; };
-		440AF9F12B52D83E004A3483 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		440AF9F12B52D83E004A3483 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
 		440AF9F32B52D83F004A3483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		440AF9F62B52D83F004A3483 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				440AF9EF2B52D83E004A3483 /* ChessClockApp.swift */,
-				440AF9F12B52D83E004A3483 /* ContentView.swift */,
+				440AF9F12B52D83E004A3483 /* ClockView.swift */,
 				440AF9F32B52D83F004A3483 /* Assets.xcassets */,
 				440AF9F52B52D83F004A3483 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				440AF9F22B52D83E004A3483 /* ContentView.swift in Sources */,
+				440AF9F22B52D83E004A3483 /* ClockView.swift in Sources */,
 				440AF9F02B52D83E004A3483 /* ChessClockApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
